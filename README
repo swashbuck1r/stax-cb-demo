@@ -1,0 +1,6 @@
+Stax+CloudBees Lift Demo
+
+mvn archetype:generate
+ [select 34]
+
+ 
