@@ -36,6 +36,21 @@
       <name>Scala-Tools Plugins Repository for Releases</name>
       <url>http://scala-tools.org/repo-releases</url>
     </pluginRepository>
+   <pluginRepository>
+     <id>stax-plugins-releases</id>
+     <url>http://mvn.stax.net/content/repositories/releases</url>
+     <snapshots>
+       <enabled>false</enabled>
+     </snapshots>
+   </pluginRepository>
+   <pluginRepository>
+     <id>stax-plugins-snapshots</id>
+     <url>http://mvn.stax.net/content/repositories/snapshots</url>
+     <releases>
+       <enabled>true</enabled>
+     </releases>
+   </pluginRepository>
+
   </pluginRepositories>
 
   <dependencies>
