@@ -141,6 +141,12 @@
           </execution>
         </executions>
       </plugin>
+      <plugins>
+     <plugin>
+       <groupId>net.stax</groupId>
+       <artifactId>stax-maven-plugin</artifactId>
+     </plugin>
+   </plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
